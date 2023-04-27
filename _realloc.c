@@ -3,8 +3,9 @@
 /**
  * _memcpy - Copies memory
  * @dest: The destination of content
- * @
-
+ * @src: The source of content
+ * @n: Number of memory to copy
+ */
 
 void _memcpy(void *dest, const void *src, unsigned int n)
 {
@@ -19,11 +20,13 @@ void _memcpy(void *dest, const void *src, unsigned int n)
 	destptr[n] = '\0';
 }
 
+
 /**
- * _realloc - allocates new memory
+ * *_realloc - allocates new memory
  * @ptr: void pointer
  * @os: old size
  * @nsize: new size
+ * Return: Always new memory
  */
 
 
