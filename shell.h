@@ -1,5 +1,5 @@
-#ifndef shell_h
-#define shell_h
+#ifndef SHELL_H
+#define SHELL_H
 
 #include <stdio.h>
 #include <unistd.h>
@@ -35,4 +35,4 @@ void *_realloc(void *ptr, size_t os, size_t nsize);
 void _memcpy(void *dest, const void *src, unsigned int n);
 char *_read_input();
 
-#endif
+#endif /*shell.h*/
