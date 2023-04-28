@@ -6,7 +6,7 @@
  * Return: void
  */
 
-Void _prerror(char *e)
+void _prerror(char *e)
 {
 	char *y;
 
