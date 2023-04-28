@@ -14,7 +14,7 @@ int _execute_command(char **g, char *d)
 	}
 	else if (_strcmp(d, "env") == 0)
 	{
-		-envp();
+		_envp();
 	}
 	else
 	{
