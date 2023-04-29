@@ -2,9 +2,9 @@
 
 /**
  * _strncmp - Compares to strings
- * @s1: String to compare
- * @s2: String to compare with
- * @p: Number of arrays to compare
+ * @ss1: String to compare
+ * @ss2: String to compare with
+ * @pp: Number of arrays to compare
  * Return: Always 0
  */
 int _strncmp(const char *ss1, const char *ss2, size_t pp)
