@@ -23,7 +23,7 @@ int _execute_command(char **g, char *d);
 char *_getenv(const char *name);
 void _prerror(char *e);
 void _exitt(char *ag);
-int _strncmp(const char *ss1, const char *ss2, size_t pp);
+int _strncmp(const char *s1, const char *s2, size_t p);
 int _atoi(const char *src);
 char *_strtokk(char *str, const char *del);
 char *_strcpy(char *dest, char *src);
