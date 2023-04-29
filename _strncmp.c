@@ -7,7 +7,7 @@
  * @p: Number of arrays to compare
  * Return: Always 0
  */
-int _strncmp(const char *s1, const char *s2, size_t p)
+int _strncmp(const char *ss1, const char *ss2, size_t pp)
 {
 	size_t i;
 
